@@ -53,6 +53,7 @@ interface SAnime : Serializable {
         const val CANCELLED = 5
         const val ON_HIATUS = 6
 
+        @JvmStatic
         fun create(): SAnime {
             return SAnimeImpl()
         }

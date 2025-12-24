@@ -25,6 +25,7 @@ interface SEpisode : Serializable {
     }
 
     companion object {
+        @JvmStatic
         fun create(): SEpisode {
             return SEpisodeImpl()
         }
